@@ -1,0 +1,20 @@
+<ion-view title="Login" id="page2" style="background-color:#3F4CC8;">
+  <ion-content padding="true" class="has-header" ng-controller="loginCtrl">
+    <h1 id="login-heading1" style="color:#F5F2F2;text-align:center;">PlumbWorks</h1>
+    <div>
+      <img src="img/dxMrKpKVRhe61hWGvZOO_main.jpg" style="display: block; width: 100%; height: auto; margin-left: auto; margin-right: auto;">
+    </div>
+    <div class="spacer" style="width: 300px; height: 6px;"></div>
+    <form id="login-form6" class="list">
+      <label class="item item-input" id="login-input5" name="usernameinput">
+        <input type="text" placeholder="Username" ng-model="username">
+      </label>
+    </form>
+    <form id="login-form7" class="list">
+      <label class="item item-input" id="login-input8">
+        <input type="password" placeholder="Password" ng-model="password">
+      </label>
+    </form>
+    <button id="login-button1" style="color:#387EF;font-size:30px;border-radius:50px 50px 50px 50px;" class="button button-calm button-large button-block icon-right ion-android-arrow-forward" ng-click="login()">Log in</button>
+  </ion-content>
+</ion-view>
